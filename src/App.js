@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Layout>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/twitter1' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/posts' element={<ProtectedRoute><Posts /></ProtectedRoute>} />
           <Route path='/posts/:postId' element={<ProtectedRoute><PostDetailed /></ProtectedRoute>} />

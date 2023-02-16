@@ -1,0 +1,36 @@
+.card {
+    width: 100% !important;
+    height: 100%;
+    position: relative;
+    margin: 0 !important;
+
+    & > div {
+        padding: 20px !important;
+        div {
+            padding-inline-end: 10px !important;
+
+        }
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    } 
+
+    .count {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgb(0, 132, 255);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        color: white;
+    }
+}

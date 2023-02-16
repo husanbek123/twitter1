@@ -1,0 +1,23 @@
+.home {
+    padding: 40px 0 0;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    column-gap: 1.6%;
+    position: relative;
+    row-gap: 12px;
+} 
+
+
+.notFound {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%)
+}

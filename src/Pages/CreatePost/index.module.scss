@@ -1,0 +1,37 @@
+.createPost {
+    width: 100%;
+    text-align: center;
+
+    p {
+        opacity: 0.6;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;     
+            min-width: 340px;
+            align-items: center;
+            width: fit-content;
+            
+            textarea {
+                height: fit-content !important;
+                min-height: 160px;
+                font-size: 18px !important;
+            }
+    
+            input {
+                font-size: 18px;
+            }
+    
+            button {
+                font-size: 18px;
+                height: fit-content;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.layout {
+    padding: 0 8%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.children {
+    padding: 30px 0 0;
+    min-height: 300px;
+}

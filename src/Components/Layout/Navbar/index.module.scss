@@ -1,0 +1,89 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+
+    h1 {
+        color: rgb(0, 162, 255)
+    }
+
+    img {
+        border-radius: 50px;
+        width: 35px;
+        height: 35px;
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+    }
+
+    h4 {
+        cursor: pointer;
+    }
+    .close {
+        display: none;
+    }
+}
+
+.menu {
+    ul {
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+
+    .userInfo {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 420px) {
+
+    .close {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.164);
+        z-index: 98;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    .menu {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        width: 200px;
+        background-color: rgb(5, 18, 54);
+        height: 100%;
+        z-index: 99;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        z-index: 99;
+
+        ul {
+            flex-direction: column;
+            row-gap: 12px;
+        }
+        .userInfo {
+            display: block;
+            position: absolute;
+            top: 10px;
+        }
+    }
+
+    .OpenMenu {
+        right: 0;
+    }
+
+    .NotClose {
+        visibility: visible;
+    }
+}
